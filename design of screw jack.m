@@ -2,8 +2,7 @@ clc; clear;
 
 fprintf('**** Design of Screwjack ****\n\n');
 
-%----------------------------------------
-%----Design Inputs----%
+
 W = input('Enter Load to be lifted (KN):');
 Sst = input('Enter Screw material Tensile Strength (Mpa):');
 Sss = input('Enter Screw material Shear Strength (Mpa):');
@@ -16,7 +15,7 @@ Snc = input('Enter Nut Compressive strength (Mpa):');
 Sns = input('Enter Nut Shear strength (Mpa):');
 max_lift = input('Enter Lift height (mm):');
 
-%----Design Calculations----%
+
 fprintf('\n####----------Design of SCREW----------####\n');
 
 % Safe allowable stress values
